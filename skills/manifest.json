@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "author": "WordPress/Elementor Community",
+  "license": "GPL-2.0-or-later",
+  "skills": [
+    {
+      "name": "elementor-addon-architecture",
+      "path": "skills/wp/elementor-addon-architecture",
+      "domain": "elementor",
+      "version": "1.0",
+      "description": "Design universal Elementor addon foundations for any WordPress codebase.",
+      "tags": ["elementor", "addon", "bootstrap", "architecture", "php"],
+      "compatibility": {
+        "php_min": "7.4",
+        "wordpress_min": "5.9",
+        "elementor_min": "3.0"
+      },
+      "dependencies": []
+    },
+    {
+      "name": "elementor-widget-development",
+      "path": "skills/wp/elementor-widget-development",
+      "domain": "elementor",
+      "version": "1.0",
+      "description": "Engineer Elementor widgets for any WordPress project.",
+      "tags": ["elementor", "widget", "controls", "render", "php"],
+      "compatibility": {
+        "php_min": "7.4",
+        "wordpress_min": "5.9",
+        "elementor_min": "3.0"
+      },
+      "dependencies": ["elementor-addon-architecture"]
+    },
+    {
+      "name": "elementor-apis-and-deprecations",
+      "path": "skills/wp/elementor-apis-and-deprecations",
+      "domain": "elementor",
+      "version": "1.0",
+      "description": "Modernize Elementor integrations safely across versions.",
+      "tags": ["elementor", "api", "deprecation", "migration", "php"],
+      "compatibility": {
+        "php_min": "7.4",
+        "wordpress_min": "5.9",
+        "elementor_min": "2.8"
+      },
+      "dependencies": []
+    },
+    {
+      "name": "elementor-ops-and-data",
+      "path": "skills/wp/elementor-ops-and-data",
+      "domain": "elementor",
+      "version": "1.0",
+      "description": "Run safe Elementor content operations in live or staging environments.",
+      "tags": ["elementor", "operations", "backup", "data", "cli", "bash", "powershell"],
+      "compatibility": {
+        "php_min": "7.4",
+        "wordpress_min": "5.9",
+        "elementor_min": "3.0",
+        "platforms": ["linux", "macos", "windows"]
+      },
+      "dependencies": []
+    }
+  ]
+}
