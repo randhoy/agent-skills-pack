@@ -11,9 +11,9 @@
       "description": "Design universal Elementor addon foundations for any WordPress codebase.",
       "tags": ["elementor", "addon", "bootstrap", "architecture", "php"],
       "compatibility": {
-        "php_min": "7.4",
-        "wordpress_min": "5.9",
-        "elementor_min": "3.0"
+        "php_min": "8.1",
+        "wordpress_min": "6.4",
+        "elementor_min": "3.20"
       },
       "dependencies": []
     },
@@ -25,9 +25,9 @@
       "description": "Engineer Elementor widgets for any WordPress project.",
       "tags": ["elementor", "widget", "controls", "render", "php"],
       "compatibility": {
-        "php_min": "7.4",
-        "wordpress_min": "5.9",
-        "elementor_min": "3.0"
+        "php_min": "8.1",
+        "wordpress_min": "6.4",
+        "elementor_min": "3.20"
       },
       "dependencies": ["elementor-addon-architecture"]
     },
@@ -39,9 +39,9 @@
       "description": "Modernize Elementor integrations safely across versions.",
       "tags": ["elementor", "api", "deprecation", "migration", "php"],
       "compatibility": {
-        "php_min": "7.4",
-        "wordpress_min": "5.9",
-        "elementor_min": "2.8"
+        "php_min": "8.1",
+        "wordpress_min": "6.4",
+        "elementor_min": "3.20"
       },
       "dependencies": []
     },
@@ -53,9 +53,9 @@
       "description": "Run safe Elementor content operations in live or staging environments.",
       "tags": ["elementor", "operations", "backup", "data", "cli", "bash", "powershell"],
       "compatibility": {
-        "php_min": "7.4",
-        "wordpress_min": "5.9",
-        "elementor_min": "3.0",
+        "php_min": "8.1",
+        "wordpress_min": "6.4",
+        "elementor_min": "3.20",
         "platforms": ["linux", "macos", "windows"]
       },
       "dependencies": []

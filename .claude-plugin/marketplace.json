@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "agent-skills-pack",
+  "description": "Cross-platform agent skills pack with WordPress Elementor workflows for architecture, widget development, API migration, and safe content operations.",
+  "owner": {
+    "name": "randhoy",
+    "url": "https://github.com/randhoy"
+  },
+  "plugins": [
+    {
+      "name": "wp-elementor-skills",
+      "description": "WordPress Elementor skills: addon architecture, widget engineering, API/deprecation migration, and backup-first operations.",
+      "version": "1.0.0",
+      "author": {
+        "name": "randhoy"
+      },
+      "source": "./skills/wp",
+      "category": "development"
+    }
+  ]
+}
